@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lobster&family=Oswald:wght@500&family=Pacifico&family=Poppins:wght@500&display=swap');
+body{
+    overflow-x: hidden;
+   
+}
+
+.name{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,138,252,0.8210881764815301) 59%, rgb(245, 112, 212) 100%);
+color: rgb(36, 31, 31);
+font-family: 'Poppins', sans-serif;
+font-size: 28px ;
+text-align: center;
+
+
+}
+ul{
+    list-style: none;
+    margin: 0;
+    strong{
+        font-family: 'Poppins',sans-serif;
+        font-size: 14px;
+        border-bottom: 2px solid rgb(245, 123, 218);
+        border-radius: 5px;
+    
+    }
+    li{
+        font-family: 'Poppins',sans-serif;
+        font-size: 12px;
+        padding: 2px 0px;
+        margin: 0;
+    }
+}
+.navlink{
+    margin-left: 26px;
+    transform: transition 2s;
+    &:hover{
+        border-bottom: 2px solid rgb(252, 101, 159);
+    }
+}
